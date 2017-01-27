@@ -76,7 +76,7 @@
 
 ## 구현
 ### 프로토타입
-[hyeong-quine-prototype.hyeong.txt]
+[hyeong-quine-prototype.hyeong](hyeong-quine-prototype.hyeong.txt)
 
 ### 완성!!
 [흑.흑 뀨이디꺼 너무 커엇...](hyeong-quine.hyeong.txt)
