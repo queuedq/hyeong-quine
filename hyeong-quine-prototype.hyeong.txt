@@ -1,0 +1,60 @@
+### Ready phase ###
+
+# <Data here>
+
+# Read and copy (*do0 *while0)
+# End = [3]
+형형♥하앙....흑...항.....항......흐윽...형하앗...형?♥!
+
+### First phase ###
+
+# Store U+D615 and 0
+혀어어어엉.형.혀엉...형.............혀어어엉....하앗...하앙...혀어어엉....하앗...하앙...혀어어엉....하앗...하앙...형
+
+# *do1
+형형.♥하앙....
+
+# Move to [3] and print U+D615
+흑...하앙....흑...항.
+
+# Store U+002E(period)
+혀어어어어엉.......혀엉..하앙...
+
+# [4] : rest, [5] : x rest -> [4] : x 1 x rest, [5] : rest
+# The second element of [4] means *while1
+# The third element is a back-up
+# When processing with the last element, [4] becomes NaN 1 x rest but it doesn't really matter
+흑.....항....흑.....항....형.항....항....흑....형하앗....하앙....
+
+# If less than 1 (=0) continue to *while1
+# It works since the first and the last element in the data are not 0
+형.?♡?
+
+# Get back to [5] with the element (multiplied by 1)
+하앗....흑.....
+
+# Print periods (*do2 *while2)
+# End = [5]
+형형..♥하앙....흑...항....흑...항.흑.....항....형.흣....하앙.....흡....흡....흐윽.....형하앗.....형..하앙.....형..?♥!하앙....
+
+# *while1 not empty
+# End = [5]
+흐윽.....형하앗.....형.하앙.....형.?♥!
+
+### Second phase ###
+
+# Move to [6]
+흑......항....
+
+# *do3
+형형...♥하앙....
+
+# Restore the Unicode characters and print them.
+혀어어엉....하앗......하앙......혀어어엉....하앗......하앙......혀어어엉....하앗......하앙......항.
+
+# *while3
+흐윽......형하앗......형...하앙......형...?♥!
+
+### End phase ###
+
+흑.흑 뀨이디꺼 너무 커엇...
