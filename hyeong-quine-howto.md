@@ -76,10 +76,10 @@
 
 ## 구현
 ### 프로토타입
-[hyeong-quine-prototype.hyeong](hyeong-quine-prototype.hyeong.txt)
+[hyeong-quine-prototype.hyeong](hyeong-quine-prototype.hyeong)
 
 ### 완성!!
-[흑.흑 뀨이디꺼 너무 커엇...](hyeong-quine.hyeong.txt)
+[흑.흑 뀨이디꺼 너무 커엇...](hyeong-quine.hyeong)
 - 첫째 줄 : 누군가가 `형`을 [애타게 찾고 있는](hyeong-quine-howto.md#데이터-저장) 단계입니다.
 - 둘째 줄 : 드디어 `형`을 [찾아내고](hyeong-quine-howto.md#데이터-읽기), [하으읏...읏응](hyeong-quine-howto.md#데이터-출력) 하는 단계입니다.
 - 셋째 줄 : 너무 크다고 흐느끼며 마치는 단계입니다.
